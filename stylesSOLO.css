@@ -1,0 +1,48 @@
+.no-shadow{
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.alignT{
+    text-align: right!important;
+}
+
+.banner{
+    text-align: center;
+}
+
+.alignC{
+    text-align: center!important;
+}
+
+.border{
+    border: black solid 1px!important;
+    margin: 0px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.search-nav{
+    background-color: white!important;
+}
+
+::placeholder{
+    color: black!important;
+}
+
+.no-padding{
+    padding: 0px;
+    margin: 0px;
+}
+
+hr{
+    margin: 0px;
+    padding: 0px;
+}
+
