@@ -1,3 +1,5 @@
+
+
 .no-shadow{
     box-shadow: none!important;
     -webkit-box-shadow: none!important;
@@ -6,6 +8,7 @@
 html, body{
     height: 100%;
     width: 100%;
+    
 }
 
 .alignT{
@@ -21,11 +24,12 @@ html, body{
 }
 
 .border{
-    border: black solid 1px!important;
+    border: #9bdc28 solid 1px!important;
     margin: 0px;
     padding: 2px;
     padding-left: 6px;
     padding-right: 6px;
+    font-size: 19px;
 }
 
 .search-nav{
@@ -33,7 +37,7 @@ html, body{
 }
 
 ::placeholder{
-    color: black!important;
+    color: #9bdc28!important;
 }
 
 .no-padding{
@@ -49,5 +53,15 @@ hr{
 .text {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+.dropdown-trigger{
+    border: #9bdc28 solid 1px!important;
+    margin: 0px;
+    padding: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white !important;
+    color: black !important;
 }
 
